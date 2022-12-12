@@ -40,8 +40,8 @@ public class Transaction {
         this.accountNo = accountNo;
     }
 
-    public ExpenseType getExpenseType() {
-        return expenseType;
+    public String getExpenseType() {
+        return expenseType.toString();
     }
 
     public void setExpenseType(ExpenseType expenseType) {
